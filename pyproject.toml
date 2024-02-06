@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "flask-template"
+version = "0.1.0"
+description = ""
+authors = ["Jiangzhengdong <xautjzd@gmail.com>"]
+readme = "README.md"
+
+exclude = [
+    "tests/",
+    "__pycache__/*"
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.2"
+python-dotenv = "^1.0.1"
+pymysql = "^1.1.0"
+flask-sqlalchemy = "^3.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
